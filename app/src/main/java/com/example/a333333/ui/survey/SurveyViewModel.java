@@ -1,14 +1,14 @@
-package com.example.a333333.ui.notifications;
+package com.example.a333333.ui.survey;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class NotificationsViewModel extends ViewModel {
+public class SurveyViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public NotificationsViewModel() {
+    public SurveyViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("Survey");
     }

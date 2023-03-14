@@ -1,16 +1,16 @@
-package com.example.a333333.ui.home;
+package com.example.a333333.ui.device;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class DeviceViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public DeviceViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Project");
+        mText.setValue("Device");
     }
 
     public LiveData<String> getText() {
