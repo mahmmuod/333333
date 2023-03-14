@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.a333333.ui.home.HomeFragment"
+        android:label="project"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.a333333.ui.dashboard.DashboardFragment"
+        android:label="device"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.a333333.ui.notifications.NotificationsFragment"
+        android:label="survey"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_tool"
+        android:name="com.example.a333333.Tool"
+        android:label="tool"
+        tools:layout="@layout/fragment_tool" />
+    <activity
+        android:id="@+id/connection"
+        android:name="com.example.a333333.connection"
+        android:label="activity_connection"
+        tools:layout="@layout/activity_connection" />
+</navigation>
